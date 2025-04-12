@@ -18,3 +18,6 @@ updates:
     minor-actions-dependencies:
       # GitHub Actions: Only group minor and patch updates (we want to carefully review major updates)
       update-types: [minor, patch]
+
+- name: Checkout
+  uses: actions/checkout@v4.2.2
